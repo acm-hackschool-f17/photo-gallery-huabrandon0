@@ -4,6 +4,7 @@
 
 body {
 	background: #212121;
+	height: 2000px;
 }
 
 .header {
@@ -54,10 +55,13 @@ body {
 }
 
 .info-pane {
+	width: 100%;
 	height: 400px;
 	background: black;
 	margin: 0px;
 	padding: 20px;
+	position: fixed;
+
 }
 
 .info-pane .preview-image {
